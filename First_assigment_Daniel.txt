@@ -1,0 +1,31 @@
+I am writing this to practice git
+
+Daniel Chavez
+ls [A-Z]*
+List multiple file names that match any letter of the Alphabet in the current directory. The asterisk ‘*’specifies a particular set of characters that will be match with the files; letters A to Z are the pattern to be consider, and “ls” List contents of the current directory.
+cp *.sh /tmp
+Copy all files ending in “.sh” or “.tmp” to the current directory, the asterisk ‘*’ defines the type of files to be copied.
+man pwd
+Display the Unix manual page containing information regarding “pwd” which is a command that display the current directory.
+cd ∼
+Change directory to the user’s home directory
+mkdir -p /test1/test2/test3
+make a parent directory, with restricted permission to some users, containing the files /test1/ test2/test3.
+cp -r /tmp .
+copy “tmp” files and their content in the current directory.
+ls | less
+Display a files in the the current directory, line by line.
+head -n 24 test.txt » abc.txt
+Display the first 24 lines of two files “test.txt” and abc.txt
+echo "aaa" > aaa.txt
+Write a some character (“aaa”) in a new file
+ps -u sallesina
+Display a list of processes in a particular User name (“sallesina")
+top
+Provides a rolling display of top cpu processes that are being use
+ls | grep .sh | xargs mv /tmp
+Display a list of files that contain “grep .sh”, “xargs. mv” and “xargs. mv”
+du -sk /home/* | sort -r -n | head -10
+Disk space used in the home directory; only the first ten results are display and sorted by rows and columns.
+Sort -r names.txt
+Classify the rows of a file “names. txt fiel”
